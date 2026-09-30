@@ -1,0 +1,36 @@
+# API / Backend
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.34,<1.0
+
+# Database
+sqlalchemy>=2.0,<3.0
+psycopg[binary]>=3.2,<4.0
+
+# Validation / Configuration
+pydantic>=2.10,<3.0
+pydantic-settings>=2.7,<3.0
+
+# Authentication / Security
+python-jose[cryptography]>=3.3,<4.0
+pwdlib[argon2]>=0.2,<1.0
+python-multipart>=0.0.20,<1.0
+
+# HTTP
+httpx>=0.28,<1.0
+requests>=2.32,<3.0
+
+# Data / ML runtime (required by integrated ML service)
+numpy>=2.0,<3.0
+pandas>=2.2,<4.0
+scipy>=1.14,<2.0
+scikit-learn==1.8.0
+joblib>=1.4,<2.0
+
+# Optional training / explainability packages used by the ML workspace
+xgboost>=2.1,<4.0
+lightgbm>=4.5,<5.0
+shap>=0.46,<1.0
+pyyaml>=6.0,<7.0
+
+# Testing
+pytest>=8.0,<10.0

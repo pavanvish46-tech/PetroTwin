@@ -1,0 +1,14 @@
+{
+  "leakage_detected": false,
+  "leaked_columns": [],
+  "predictor_count": 80,
+  "lag_features": 28,
+  "rolling_features": 7,
+  "physics_features": [
+    "steam_heat_index",
+    "pump_displacement_index",
+    "mechanical_stress_index",
+    "mechanical_stress_ewma_7d",
+    "failure_risk_prior"
+  ]
+}

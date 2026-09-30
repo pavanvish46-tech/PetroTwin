@@ -1,0 +1,41 @@
+column,description,unit,domain,role
+well_id,Unique well identifier,,identity,metadata
+date,Observation date,,time,input
+cycle_id,CSS cycle identifier,,cycle,input
+cycle_number,CSS cycle number,,cycle,input
+day_in_cycle,Days since cycle start,days,cycle,input
+css_phase,CSS phase,,CSS,input
+well_depth_m,Well depth,m,well,input
+api_gravity_deg,Oil API gravity,deg API,fluid,input
+reservoir_pressure_bar,Reservoir pressure,bar,reservoir,input
+reservoir_temperature_c,Reservoir temperature,deg C,reservoir,input
+oil_viscosity_cp,Heavy-oil viscosity,cP,fluid,input
+steam_rate_tpd,Steam rate,tonnes/day,CSS,input
+steam_temperature_c,Steam temperature,deg C,CSS,input
+steam_pressure_bar,Steam pressure,bar,CSS,input
+steam_quality,Steam quality,0-1,CSS,input
+injection_duration_days,Injection duration,days,CSS,input
+soak_time_hours,Soak duration,hours,CSS,input
+production_duration_days,Production duration,days,CSS,input
+spm,Sucker-rod strokes per minute,strokes/min,SRP,input
+stroke_length_m,Stroke length,m,SRP,input
+vfd_frequency_hz,VFD frequency,Hz,SRP,input
+pump_efficiency,Pump efficiency,0-1,SRP,derived
+pump_fillage,Pump fillage,0-1,SRP,derived
+rod_load_lb,Rod load,lb,SRP,derived
+oil_production_bopd,Oil production,bbl/day,production,state
+water_production_bwpd,Water production,bbl/day,production,state
+water_cut,Water cut,0-1,production,state
+energy_consumption_kwh,Energy consumption,kWh,production,state
+steam_oil_ratio,Steam-oil ratio,ratio,derived,derived
+mobility_index,Relative mobility,index,derived,derived
+inflow_index,Relative inflow,index,derived,derived
+pump_load_ratio,Pump load/reference load,ratio,derived,derived
+rod_failure,Rod failure,0/1,failure,event
+pump_unsetting,Pump unsetting,0/1,failure,event
+rod_floating,Rod floating,0/1,failure,event
+maintenance_event,Maintenance event,0/1,maintenance,event
+failure_next_7d,Failure within next 7 days,0/1,failure,target
+temperature_24h_target_c,24-hour temperature target,deg C,forecast,target
+production_next_24h_target_bopd,24-hour production target,bbl/day,forecast,target
+is_synthetic,Synthetic data flag,boolean,metadata,metadata

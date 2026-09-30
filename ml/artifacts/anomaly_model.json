@@ -1,0 +1,10 @@
+{
+  "features": [
+    "rod_load_lb",
+    "pump_fillage",
+    "oil_production_bopd",
+    "reservoir_temperature_c",
+    "spm",
+    "vfd_frequency_hz"
+  ]
+}

@@ -1,0 +1,19 @@
+targets:
+  production: production_next_24h_target_bopd
+  temperature: temperature_24h_target_c
+  failure: failure_next_7d
+
+future_or_event_fields:
+  - failure_next_7d
+  - temperature_24h_target_c
+  - production_next_24h_target_bopd
+  - rod_failure
+  - pump_unsetting
+  - rod_floating
+  - maintenance_event
+
+metadata:
+  - well_id
+  - cycle_id
+  - date
+  - is_synthetic

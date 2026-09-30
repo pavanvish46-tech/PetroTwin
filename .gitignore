@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime database / logs
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+*.log
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary/raw data
+ml/data/raw/
+ml/data/external/
+
+# Keep trained prototype artifacts versioned because local inference depends on them.
+# Do NOT add *.joblib to this ignore list.

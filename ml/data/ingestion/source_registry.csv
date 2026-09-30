@@ -1,0 +1,11 @@
+source,dataset_or_api,purpose,training_role
+Oil India,Rajasthan Fields / Baghewala,Field facts and engineering context,calibration
+Oil India,CSS publication,BGW-8 CSS context,calibration
+Oil India,Baghewala technical documents,Well and formation context,constraints
+EIA,Crude Oil Imports API,Macro import quantity,economics/context only
+EIA,Spot Price API,WTI/Brent prices,economics
+EIA,Weekly production API,External production benchmark,benchmark only
+Sandia,Downhole Dynamometer Database,SRP load/pressure/temperature/dynagraph data,SRP calibration
+NASA POWER,Daily API,Weather variables,optional environmental features
+Open-Meteo,Historical Weather API,ERA5/ERA5-Land weather,optional environmental features
+Our generator,Physics-informed synthetic Baghewala-style records,Prototype ML training,primary prototype training

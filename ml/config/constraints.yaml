@@ -1,0 +1,10 @@
+# Prototype bounds only. Replace with authorized OIL operating limits when available.
+steam_rate_tpd: [100, 250]
+steam_temperature_c: [280, 330]
+steam_pressure_bar: [50, 110]
+steam_quality: [0.60, 0.90]
+soak_time_hours: [24, 96]
+spm: [4, 10]
+stroke_length_m: [2.0, 3.5]
+vfd_frequency_hz: [20, 55]
+rod_load_lb: [3500, 12000]

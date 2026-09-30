@@ -1,0 +1,22 @@
+{
+  "rows": 5400,
+  "columns": 40,
+  "duplicate_rows": 0,
+  "missing_cells": 0,
+  "wells": 30,
+  "date_min": "2025-01-01",
+  "date_max": "2025-06-29",
+  "failure_rate": 0.12814814814814815,
+  "range_violations": {
+    "steam_rate_tpd": 0,
+    "steam_temperature_c": 0,
+    "steam_pressure_bar": 0,
+    "steam_quality": 0,
+    "soak_time_hours": 0,
+    "spm": 0,
+    "stroke_length_m": 0,
+    "pump_efficiency": 0,
+    "pump_fillage": 0,
+    "water_cut": 0
+  }
+}
